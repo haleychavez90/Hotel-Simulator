@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #308ec9;
+}
+
+form {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px;
+  width: 100%;
+  background: #308ec9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2f5d91;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.guest-list {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.guest-card {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
